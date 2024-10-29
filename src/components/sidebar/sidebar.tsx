@@ -19,10 +19,15 @@ const navLinks = [
     link: "/ifsc",
   },
   {
-    name: "Blogs",
+    name: "Quotes",
     icon: invoiceIcon,
-    link: "/blog",
+    link: "/quotes",
   },
+  // {
+  //   name: "Blogs",
+  //   icon: invoiceIcon,
+  //   link: "/blog",
+  // },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {
@@ -34,9 +39,9 @@ const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => 
       <Divider />
       <List>
         {navLinks.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <Link to={item.link} style={{ textDecoration: "none", color: "inherit" }}>
-              <ListItemButton selected={location.pathname === item.link}>
+          <ListItem key={item.name} disablePadding style={{ width: '100%' }}>
+            <Link to={item.link} style={{ textDecoration: "none", color: "inherit",width:'100%' }}>
+              <ListItemButton selected={location.pathname === item.link} style={{ width: '100%' }}>
                 <ListItemIcon>
                   <img
                     src={item.icon}

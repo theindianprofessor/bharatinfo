@@ -3,6 +3,7 @@ import Error from "./components/error/error";
 
 import Ifsc from "./components/ifsc/ifsc";
 import Blog from "./components/blog/blog";
+import Quote from "./components/quotes/quotes";
 
 export const router = createHashRouter([
     {
@@ -13,6 +14,11 @@ export const router = createHashRouter([
     {
         path: "/ifsc",
         element: <Ifsc />,
+        errorElement:<Error/>
+    },
+    {
+        path: "/quotes",
+        element: <Quote />,
         errorElement:<Error/>
     },
     {
