@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { TextField, Button, Box, Typography, Card, CardContent } from '@mui/material';
 //import pincodes from '../../assets/data/pincode.json';
 
@@ -21,10 +21,18 @@ interface PincodeEntry {
   latitude: string;
 }
 //const pincodeData: PincodeEntry[] = pincodes as PincodeEntry[];
-const pincodeData: PincodeEntry[] = [] as PincodeEntry[];
+//const pincodeData: PincodeEntry[] = [] as PincodeEntry[];
 const PincodeSearch: React.FC = () => {
   const [pincode, setPincode] = useState<string>('');
   const [details, setDetails] = useState<PincodeEntry | null>(null);
+
+  const [pincodeData, setPincodeData] = useState<PincodeEntry[]>([]);
+  useEffect(() => {
+    fetch("https://jsondata-i375.onrender.com/pincodes")
+      .then((response) => response.json())
+      .then((data) => setPincodeData(data))
+      .catch((error) => console.error("Error fetching JSON:", error));
+  }, []);
 
   const handleSearch = () => {
     const result = pincodeData.find((entry) => entry.pincode === pincode);
