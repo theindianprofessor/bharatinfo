@@ -4,6 +4,7 @@ import Error from "./components/error/error";
 import Ifsc from "./components/ifsc/ifsc";
 import Blog from "./components/blog/blog";
 import Quote from "./components/quotes/quotes";
+import BlogDetail from "./components/blog/blog-detail";
 
 export const router = createHashRouter([
     {
@@ -24,6 +25,11 @@ export const router = createHashRouter([
     {
         path: "/blog",
         element: <Blog />,
+        errorElement:<Error/>
+    },
+    {
+        path: "/blog/:id",
+        element: <BlogDetail />,
         errorElement:<Error/>
     },
 ]);

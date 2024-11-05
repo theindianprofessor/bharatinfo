@@ -23,11 +23,11 @@ const navLinks = [
     icon: invoiceIcon,
     link: "/quotes",
   },
-  // {
-  //   name: "Blogs",
-  //   icon: invoiceIcon,
-  //   link: "/blog",
-  // },
+  {
+    name: "Blogs",
+    icon: invoiceIcon,
+    link: "/blog",
+  },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {
