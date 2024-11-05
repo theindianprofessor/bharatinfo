@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { TextField, Button, Box, Typography, Card, CardContent } from '@mui/material';
-//import pincodes from '../../assets/data/pincode.json';
+import { TextField, Button, Box, Typography, Card, CardContent,CircularProgress } from '@mui/material';
+
 
 
 interface PincodeEntry {
@@ -20,13 +20,14 @@ interface PincodeEntry {
   longitude: string;
   latitude: string;
 }
-//const pincodeData: PincodeEntry[] = pincodes as PincodeEntry[];
-//const pincodeData: PincodeEntry[] = [] as PincodeEntry[];
+
 const PincodeSearch: React.FC = () => {
   const [pincode, setPincode] = useState<string>('');
   const [details, setDetails] = useState<PincodeEntry | null>(null);
 
   const [pincodeData, setPincodeData] = useState<PincodeEntry[]>([]);
+  const [loading, setLoading] = useState<boolean>(false);
+
   useEffect(() => {
     fetch("https://jsondata-i375.onrender.com/pincodes")
       .then((response) => response.json())
@@ -34,9 +35,27 @@ const PincodeSearch: React.FC = () => {
       .catch((error) => console.error("Error fetching JSON:", error));
   }, []);
 
+  // const handleSearch = () => { 
+  //   setLoading(true); setTimeout(() => { 
+  //     const result = pincodeData.find((entry) => entry.pincode === pincode); 
+  //     setDetails(result || null); 
+  //     setLoading(false); 
+  //   }, 5000); // Simulate a delay for loading 
+  // };
   const handleSearch = () => {
-    const result = pincodeData.find((entry) => entry.pincode === pincode);
-    setDetails(result || null);
+    setLoading(true);
+    fetch(
+      `https://jsondata-i375.onrender.com/getpincodedetailBypincode/${pincode}`
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        setDetails(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching JSON:", error);
+        setLoading(false);
+      });
   };
 
   return (
@@ -49,8 +68,14 @@ const PincodeSearch: React.FC = () => {
           variant="outlined"
           sx={{ marginRight: 2 }}
         />
-        <Button variant="contained" color="primary" onClick={handleSearch}>
-          Search
+        <Button
+          variant="contained"
+          color="primary"
+          onClick={handleSearch}
+          disabled={loading}
+        >
+          {" "}
+          {loading ? <CircularProgress size={24} /> : "Search"}{" "}
         </Button>
       </Box>
       {details && (
