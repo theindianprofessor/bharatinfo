@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { TextField, Button, Box, Typography, Card, CardContent,CircularProgress } from '@mui/material';
 
 
@@ -25,15 +25,15 @@ const PincodeSearch: React.FC = () => {
   const [pincode, setPincode] = useState<string>('');
   const [details, setDetails] = useState<PincodeEntry | null>(null);
 
-  const [pincodeData, setPincodeData] = useState<PincodeEntry[]>([]);
+  //const [pincodeData, setPincodeData] = useState<PincodeEntry[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
 
-  useEffect(() => {
-    fetch("https://jsondata-i375.onrender.com/pincodes")
-      .then((response) => response.json())
-      .then((data) => setPincodeData(data))
-      .catch((error) => console.error("Error fetching JSON:", error));
-  }, []);
+  // useEffect(() => {
+  //   fetch("https://jsondata-i375.onrender.com/pincodes")
+  //     .then((response) => response.json())
+  //     .then((data) => setPincodeData(data))
+  //     .catch((error) => console.error("Error fetching JSON:", error));
+  // }, []);
 
   // const handleSearch = () => { 
   //   setLoading(true); setTimeout(() => { 
