@@ -5,6 +5,7 @@ import Ifsc from "./components/ifsc/ifsc";
 import Blog from "./components/blog/blog";
 import Quote from "./components/quotes/quotes";
 import BlogDetail from "./components/blog/blog-detail";
+import Pincode from "./components/pincode/pincode";
 
 export const router = createHashRouter([
     {
@@ -30,6 +31,10 @@ export const router = createHashRouter([
     {
         path: "/blog/:id",
         element: <BlogDetail />,
+        errorElement:<Error/>
+    },  {
+        path: "/pincode",
+        element: <Pincode />,
         errorElement:<Error/>
     },
 ]);

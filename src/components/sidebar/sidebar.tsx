@@ -28,6 +28,11 @@ const navLinks = [
     icon: invoiceIcon,
     link: "/blog",
   },
+  {
+    name: "Pin-Code Search",
+    icon: invoiceIcon,
+    link: "/pincode",
+  },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {
