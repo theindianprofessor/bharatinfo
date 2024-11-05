@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TextField, Button, Box, Typography, Card, CardContent } from '@mui/material';
-import pincodes from '../../assets/data/pincode.json';
+//import pincodes from '../../assets/data/pincode.json';
 
 
 interface PincodeEntry {
@@ -20,7 +20,8 @@ interface PincodeEntry {
   longitude: string;
   latitude: string;
 }
-const pincodeData: PincodeEntry[] = pincodes as PincodeEntry[];
+//const pincodeData: PincodeEntry[] = pincodes as PincodeEntry[];
+const pincodeData: PincodeEntry[] = [] as PincodeEntry[];
 const PincodeSearch: React.FC = () => {
   const [pincode, setPincode] = useState<string>('');
   const [details, setDetails] = useState<PincodeEntry | null>(null);
