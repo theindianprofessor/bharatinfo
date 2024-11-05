@@ -3,6 +3,8 @@ import { Box, Drawer, Divider, List, ListItem, ListItemButton, ListItemIcon, Lis
 import { Link, useLocation } from 'react-router-dom';
 import homeIcon from '../../assets/icons/icon-home.svg';
 import invoiceIcon from '../../assets/icons/icon-invoice.svg';
+import blogIcon from '../../assets/icons/icon-blog.svg';
+import pincodeIcon from '../../assets/icons/pin-code.svg';
 
 const drawerWidth = 240;
 
@@ -25,12 +27,12 @@ const navLinks = [
   },
   {
     name: "Blogs",
-    icon: invoiceIcon,
+    icon: blogIcon,
     link: "/blog",
   },
   {
     name: "Pin-Code Search",
-    icon: invoiceIcon,
+    icon: pincodeIcon,
     link: "/pincode",
   },
 ];
