@@ -13,30 +13,44 @@
       "readTime": "10",
       "tags": ["Skin care", "Beauty", "Acne"]
     },    
-    {
-         "id": 2,
-         "title": "Five Tips to Take Control of Acne",
-         "summary": "This article provides five practical tips to help manage and prevent acne flare-ups effectively.",
-         "content": "[
-                       ["Luckily"," there are a number of things you can do everyday to make sure your skin is less prone to flare ups. Here are five tips for taking control of your acne starting today."],
-                       ["1. Exercise - Keeping in shape can help fight acne by fighting off negative stress levels that can come from negative self-esteem and depression. However"," some safeguards need to be in place to ward off acne that can result from your workout routines. Watch what you put on your body with regards to clothing"," sports gear and equipment."],
-                       ["For example"," tight lycra and nylon exercise outfits might look great in the movies and on magazine models"," but if you are susceptible to acne problems"," avoid these synthetic fabrics that tend to trap in body moisture and heat resulting in a bacteria frenzy. Instead"," choose loose clothing made of cotton or natural blends to allow more air to get to your skin."],
-                       ["And when you are finished with your workout"," get out of clothing wet from perspiration or water sports. Shower and change into dry"," clean clothing. And keep your sports gear and equipment clean"," too. Dirty headgear"," for instance"," can irritate forehead areas prone to acne problems. So toss headbands into the washing machine after workout sessions."],
-                       ["2. Cosmetics - To avoid pore-clogging and skin irritations that are similar to acne and that can contribute to acne"," use products labeled noncomedogenic or oil-free. Shimmering facial colors can contain a flaky mineral called mica that can cause skin irritations and clog pores. Other additives in coloring that can cause similar reactions are coal tar derivatives"," carmine and heavy cream in blushes."],
-                       ["More preventative measures include using a lip gloss that promotes a matte finish instead of a high gloss for less pore-clogging; note the more the shine"," the more then comedogenic content and the more the pores can clog. Beware that eye creams can contain heavier concentrations of moisturizers than regular creams and lotions"," meaning they have greater potential to clog pores in the surrounding facial areas."],
-                       ["3. Diet - Studies show that diet does not play a role in either the cause or the treatment of acne. However"," what is recommended for acne preventative care is this: what is best for your body is best for your skin"," especially since your skin is the largest organ of your body. So remember to watch your diet and consume healthy vitamins"," minerals and other supplements. This will help to prevent and help conquer acne breakout."],
-                       ["4. Hygiene - A healthy skin regimen should include no harsh scrubbing or over-washing"," because this can cause possible skin irritation or possible over production of oil to replace what has washed off"," clogging pores in the process. Products with gentle exfoliation ingredients are OK to use; i.e. not scratchy nut or fruit shell pieces that can tear skin. And skip alcohol products when possible; these can take off the top layer of your skin and cause your glands to product more oil"," clogging pores in the process."],
-                       ["If you do spot acne-troubled areas"," do NOT mess with them. Remember that these are already weeks in the making"," and squeezing or picking blemishes can force the infected area to regress back inside"," further troubling the region and possibly leave a scar. If necessary"," seek help from a dermatologist for alternative treatments."],
-                       ["5. Shaving - Shaving for both genders is actually an excellent way of exfoliating or removing dead skin to help with the prevention and spreading of acne instead of leaving the remains to clog pores. And for some light acne cases already in process"," shaving can help rid whiteheads and blackheads from the face. A word of caution: for areas with infection or high inflammatory activity (redness"," sensitive"," open acne"," sores"," etc.)"," do not shave. Or at the very least"," use a shaving cream for sensitive skin!"],"
-         "author": {
-           "name": "",
-           "avatar": "",
-           "role": ""
-         },
-         "publishedDate": "",
-         "readTime": "12",
-         "tags": ["Acne", "Skin care", "Health"]
-    },
+  {
+  "id": 2,
+  "title": "Five Tips to Take Control of Acne",
+  "summary": "This article provides five practical tips to help manage and prevent acne flare-ups effectively.",
+  "content": {
+    "introduction": "Luckily, there are a number of things you can do everyday to make sure your skin is less prone to flare ups. Here are five tips for taking control of your acne starting today.",
+    "tips": [
+      {
+        "title": "1. Exercise",
+        "details": "Keeping in shape can help fight acne by fighting off negative stress levels that can come from negative self-esteem and depression. However, some safeguards need to be in place to ward off acne that can result from your workout routines. Watch what you put on your body with regards to clothing, sports gear and equipment.\n\nFor example, tight lycra and nylon exercise outfits might look great in the movies and on magazine models, but if you are susceptible to acne problems, avoid these synthetic fabrics that tend to trap in body moisture and heat resulting in a bacteria frenzy. Instead, choose loose clothing made of cotton or natural blends to allow more air to get to your skin.\n\nAnd when you are finished with your workout, get out of clothing wet from perspiration or water sports. Shower and change into dry, clean clothing. And keep your sports gear and equipment clean, too. Dirty headgear, for instance, can irritate forehead areas prone to acne problems. So toss headbands into the washing machine after workout sessions."
+      },
+      {
+        "title": "2. Cosmetics",
+        "details": "To avoid pore-clogging and skin irritations that are similar to acne and that can contribute to acne, use products labeled noncomedogenic or oil-free. Shimmering facial colors can contain a flaky mineral called mica that can cause skin irritations and clog pores. Other additives in coloring that can cause similar reactions are coal tar derivatives, carmine and heavy cream in blushes.\n\nMore preventative measures include using a lip gloss that promotes a matte finish instead of a high gloss for less pore-clogging; note the more the shine, the more then comedogenic content and the more the pores can clog. Beware that eye creams can contain heavier concentrations of moisturizers than regular creams and lotions, meaning they have greater potential to clog pores in the surrounding facial areas."
+      },
+      {
+        "title": "3. Diet",
+        "details": "Studies show that diet does not play a role in either the cause or the treatment of acne. However, what is recommended for acne preventative care is this: what is best for your body is best for your skin, especially since your skin is the largest organ of your body. So remember to watch your diet and consume healthy vitamins, minerals and other supplements. This will help to prevent and help conquer acne breakout."
+      },
+      {
+        "title": "4. Hygiene",
+        "details": "A healthy skin regimen should include no harsh scrubbing or over-washing, because this can cause possible skin irritation or possible over production of oil to replace what has washed off, clogging pores in the process. Products with gentle exfoliation ingredients are OK to use; i.e. not scratchy nut or fruit shell pieces that can tear skin. And skip alcohol products when possible; these can take off the top layer of your skin and cause your glands to product more oil, clogging pores in the process.\n\nIf you do spot acne-troubled areas, do NOT mess with them. Remember that these are already weeks in the making, and squeezing or picking blemishes can force the infected area to regress back inside, further troubling the region and possibly leave a scar. If necessary, seek help from a dermatologist for alternative treatments."
+      },
+      {
+        "title": "5. Shaving",
+        "details": "Shaving for both genders is actually an excellent way of exfoliating or removing dead skin to help with the prevention and spreading of acne instead of leaving the remains to clog pores. And for some light acne cases already in process, shaving can help rid whiteheads and blackheads from the face. A word of caution: for areas with infection or high inflammatory activity (redness, sensitive, open acne, sores, etc.), do not shave. Or at the very least, use a shaving cream for sensitive skin!"
+      }
+    ]
+  },
+  "author": {
+    "name": "",
+    "avatar": "",
+    "role": ""
+  },
+  "publishedDate": "",
+  "readTime": "12",
+  "tags": ["Acne", "Skin care", "Health"]
+},
     {
       "id": 3,
       "title": "India's Green Revolution: Agricultural Transformation",
