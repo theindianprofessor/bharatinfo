@@ -213,7 +213,15 @@ const BlogDetail: React.FC = () => {
                 }
               }}
             >
-              {blog.content}
+              {blog.content.map((paragraph, index) => (
+                <Typography
+                  key={index}
+                  component="p"
+                  sx={{ marginBottom: 2 }}
+                >
+                  {paragraph}
+                </Typography>
+              ))}
             </Typography>
  {/* Tags and Share Section */}
  <Box sx={{ mt: 6 }}>
