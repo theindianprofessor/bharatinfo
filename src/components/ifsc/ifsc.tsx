@@ -167,6 +167,7 @@ const Ifsc: React.FC = () => {
             <br></br>
             <br></br>
             <strong>Can we find any bank in India using IFSC?</strong>
+            <br></br>
             Yes, you can find a bank and its branch details in India using the IFSC (Indian Financial System Code). The IFSC code is unique to each bank branch and can help you identify the bank and its specific branch. Here's how you can do it:
             <ol>
             <li><strong>Structure of IFSC Code</strong>:</li>
@@ -214,6 +215,7 @@ const Ifsc: React.FC = () => {
             <br></br>
             <strong>IFSC (Indian Financial System Code)</strong> and <strong>MICR (Magnetic Ink Character Recognition)</strong> are both codes used in the banking system, but they serve different purposes and are used in different types of transactions. Here's a breakdown of the differences:
             <br></br>
+            <br></br>
             <strong>(1) Purpose and Use:</strong>
             <br></br>
             <ul>
@@ -228,7 +230,6 @@ const Ifsc: React.FC = () => {
             <li><strong>Use</strong>: MICR helps identify the bank, branch, and account details from the printed information on the cheque to ensure its swift and secure processing.</li>
             </ul>
             </ul>
-            <br></br>
             <br></br>
             <strong>(2) Structure:</strong>
             <br></br>
@@ -252,7 +253,6 @@ const Ifsc: React.FC = () => {
             </ul>
             </ul>
             <br></br>
-            <br></br>
             <strong>(3) Medium of Use:</strong>
             <br></br>
             <ul>
@@ -266,7 +266,6 @@ const Ifsc: React.FC = () => {
             <li>Used for <strong>physical cheque processing</strong>. It&rsquo;s read by machines to automate the clearing and settlement of cheques in banks.</li>
             </ul>
             </ul>
-            <br></br>
             <br></br>
             <strong> (4) Technology:</strong>
             <br></br>
@@ -283,7 +282,6 @@ const Ifsc: React.FC = () => {
             </ul>
             </ul>
             <br></br>
-            <br></br>
             <strong>(5) Security:</strong>
             <br></br>
             <ul>
@@ -296,7 +294,6 @@ const Ifsc: React.FC = () => {
             <li>The use of magnetic ink for printing helps prevent tampering with cheque details, adding a layer of security to physical cheque transactions.</li>
             </ul>
             </ul>
-            <br></br>
             <br></br>
             <strong>(6) Applications:</strong>
             <br></br>
