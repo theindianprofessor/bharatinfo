@@ -222,7 +222,7 @@ const Ifsc: React.FC = () => {
         <li><strong>Use</strong>: MICR helps identify the bank, branch, and account details from the printed information on the cheque to ensure its swift and secure processing.</li>
         </ul>
         </ul>
-        <ol start="2">
+        <ol>
         <li><strong> Structure:</strong></li>
         </ol>
         <ul>
@@ -244,7 +244,7 @@ const Ifsc: React.FC = () => {
         <li>Example: <strong>123456789</strong> (where the code specifies city, bank, and branch).</li>
         </ul>
         </ul>
-        <ol start="3">
+        <ol>
         <li><strong> Medium of Use:</strong></li>
         </ol>
         <ul>
@@ -258,7 +258,7 @@ const Ifsc: React.FC = () => {
         <li>Used for <strong>physical cheque processing</strong>. It&rsquo;s read by machines to automate the clearing and settlement of cheques in banks.</li>
         </ul>
         </ul>
-        <ol start="4">
+        <ol>
         <li><strong> Technology:</strong></li>
         </ol>
         <ul>
@@ -273,7 +273,7 @@ const Ifsc: React.FC = () => {
         <li>MICR is mainly associated with traditional banking methods, particularly cheque processing.</li>
         </ul>
         </ul>
-        <ol start="5">
+        <ol>
         <li><strong> Security:</strong></li>
         </ol>
         <ul>
@@ -286,7 +286,7 @@ const Ifsc: React.FC = () => {
         <li>The use of magnetic ink for printing helps prevent tampering with cheque details, adding a layer of security to physical cheque transactions.</li>
         </ul>
         </ul>
-        <ol start="6">
+        <ol>
         <li><strong> Applications:</strong></li>
         </ol>
         <ul>
