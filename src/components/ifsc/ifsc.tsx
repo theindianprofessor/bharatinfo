@@ -205,8 +205,8 @@ const Ifsc: React.FC = () => {
         <br></br>
         <br></br>
         <br></br>
-        <strong>What is the difference between IFSC and MICR?</strong></p>
-        <strong>IFSC (Indian Financial System Code)</strong> and <strong>MICR (Magnetic Ink Character Recognition)</strong> are both codes used in the banking system, but they serve different purposes and are used in different types of transactions. Here's a breakdown of the differences:</p>
+        <strong>What is the difference between IFSC and MICR?</strong>
+        <strong>IFSC (Indian Financial System Code)</strong> and <strong>MICR (Magnetic Ink Character Recognition)</strong> are both codes used in the banking system, but they serve different purposes and are used in different types of transactions. Here's a breakdown of the differences:
         <ol>
         <li><strong> Purpose and Use:</strong></li>
         </ol>
