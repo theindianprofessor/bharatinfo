@@ -67,6 +67,7 @@ const PinCode: React.FC = () => {
           <li><strong>Local Post Office</strong>: You can visit or call your local post office to inquire about the PIN Code for your area.</li>
           </ul>
           In summary, the PIN code system in India plays a crucial role in ensuring smooth, timely, and accurate delivery of mail across the country.<br></br>
+          <br></br>
           <strong>Who assigns/manages the Pin code in India?</strong><br></br>
           In India, the <strong>Postal Index Number (PIN Code)</strong> system was introduced by <strong>India Post</strong> under the guidance of the <strong>Government of India</strong>. The PIN code of a particular area is determined and assigned by India Post, which operates under the <strong>Ministry of Communications</strong>.<br></br>
           <strong>Key Points About the PIN Code Assignment:</strong><br></br>
