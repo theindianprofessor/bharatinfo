@@ -30,7 +30,13 @@ const PinCode: React.FC = () => {
     </Box>
 
       {
-        <p> This is Sumit</p>
+        <p> 
+          <br>This is Sumit.</br> 
+          <br>This is Sumit.</br> <br> This Sumit </br>
+        
+         
+        
+        </p>
       }
       
     <Box py={20} px={3} sx={{backgroundColor: ""}}>
