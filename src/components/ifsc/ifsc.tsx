@@ -213,9 +213,9 @@ const Ifsc: React.FC = () => {
             <strong>What is the difference between IFSC and MICR?</strong>
             <br></br>
             <strong>IFSC (Indian Financial System Code)</strong> and <strong>MICR (Magnetic Ink Character Recognition)</strong> are both codes used in the banking system, but they serve different purposes and are used in different types of transactions. Here's a breakdown of the differences:
-            <ol>
-            <li><strong> Purpose and Use:</strong></li>
-            </ol>
+            <br></br>
+            <strong>(1) Purpose and Use:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC (Indian Financial System Code)</strong>:</li>
             <ul>
@@ -228,9 +228,10 @@ const Ifsc: React.FC = () => {
             <li><strong>Use</strong>: MICR helps identify the bank, branch, and account details from the printed information on the cheque to ensure its swift and secure processing.</li>
             </ul>
             </ul>
-            <ol start="2">
-            <li><strong> Structure:</strong></li>
-            </ol>
+            <br></br>
+            <br></br>
+            <strong>(2) Structure:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC</strong>:</li>
             <ul>
@@ -250,9 +251,10 @@ const Ifsc: React.FC = () => {
             <li>Example: <strong>123456789</strong> (where the code specifies city, bank, and branch).</li>
             </ul>
             </ul>
-            <ol start="3">
-            <li><strong> Medium of Use:</strong></li>
-            </ol>
+            <br></br>
+            <br></br>
+            <strong>(3) Medium of Use:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC</strong>:</li>
             <ul>
@@ -264,9 +266,10 @@ const Ifsc: React.FC = () => {
             <li>Used for <strong>physical cheque processing</strong>. It&rsquo;s read by machines to automate the clearing and settlement of cheques in banks.</li>
             </ul>
             </ul>
-            <ol start="4">
-            <li><strong> Technology:</strong></li>
-            </ol>
+            <br></br>
+            <br></br>
+            <strong> (4) Technology:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC</strong>:</li>
             <ul>
@@ -279,9 +282,10 @@ const Ifsc: React.FC = () => {
             <li>MICR is mainly associated with traditional banking methods, particularly cheque processing.</li>
             </ul>
             </ul>
-            <ol start="5">
-            <li><strong> Security:</strong></li>
-            </ol>
+            <br></br>
+            <br></br>
+            <strong>(5) Security:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC</strong>:</li>
             <ul>
@@ -292,9 +296,10 @@ const Ifsc: React.FC = () => {
             <li>The use of magnetic ink for printing helps prevent tampering with cheque details, adding a layer of security to physical cheque transactions.</li>
             </ul>
             </ul>
-            <ol start="6">
-            <li><strong> Applications:</strong></li>
-            </ol>
+            <br></br>
+            <br></br>
+            <strong>(6) Applications:</strong>
+            <br></br>
             <ul>
             <li><strong>IFSC</strong>:</li>
             <ul>
