@@ -28,6 +28,11 @@ const PinCode: React.FC = () => {
           <PincodeSearch/>
       </Box>
     </Box>
+
+      {
+        <p> This is Sumit</p>
+      }
+      
     <Box py={20} px={3} sx={{backgroundColor: ""}}>
       <Box width="100%">
 
