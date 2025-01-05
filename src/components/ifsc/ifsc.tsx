@@ -81,7 +81,7 @@ const Ifsc: React.FC = () => {
       </Box>
       {/* grey */  
       <p>
-        <strong>What is an IFSC? </strong><br>
+        <strong>What is an IFSC? </strong> <br></br>
         IFSC (Indian Financial System Code) is an alphanumeric code used to uniquely identify a specific branch of a bank in India. It is primarily used for electronic payment systems, such as Real Time Gross Settlement (RTGS), Immediate Payment Service (IMPS), and National Electronic Funds Transfer (NEFT). The code is typically 11 characters long and consists of: 
       </p>
 
