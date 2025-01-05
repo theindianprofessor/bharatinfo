@@ -81,7 +81,7 @@ const Ifsc: React.FC = () => {
       </Box>
       {/* grey */  
       <p>
-      What is an IFSC?
+      <strong>What is an IFSC? </strong>
       </p>
 
 
