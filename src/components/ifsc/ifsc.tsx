@@ -80,7 +80,7 @@ const Ifsc: React.FC = () => {
         </Box>
       </Box>
       {/* grey */  
-          <P> Its not working</P>
+          <p> Its not working</p>
       }
       <Box py={20} px={3} sx={{backgroundColor: ""}}>
         <Box width="100%">
