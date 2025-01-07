@@ -33,7 +33,7 @@ const PinCode: React.FC = () => {
         <p> 
           <strong>What is Pin code?</strong><br></br>
           A <strong>PIN Code</strong> (Postal Index Number) in India is a six-digit code used by the postal department to efficiently sort and deliver mail across the country. It helps identify specific regions, cities, or localities for more accurate and quicker mail delivery. The PIN Code system was introduced by India Post on <strong>15 August 1972</strong>.<br></br>
-          <strong>Structure of a PIN Code:</strong><br></br>
+          <br></br><strong>Structure of a PIN Code:</strong><br></br>
           <ul>
           <li>The six digits of a PIN Code are divided into three parts:</li>
           <ol>
