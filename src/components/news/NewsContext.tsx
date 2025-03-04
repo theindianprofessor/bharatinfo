@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext,  ReactNode } from 'react';
 import useFetchNews from '../../hooks/news-service';
 
 interface NewsResponse {
