@@ -29,10 +29,10 @@ const useFetchNews = () => {
   const [error, setError] = useState<string | null>(null);
 
   // Dynamic date: 7 days ago from today
-  const today = new Date();
-  const fromDate = new Date(today.setDate(today.getDate() - 7))
-    .toISOString()
-    .split('T')[0]; // e.g., "2025-02-25"
+  // const today = new Date();
+  // const fromDate = new Date(today.setDate(today.getDate() - 7))
+  //   .toISOString()
+  //   .split('T')[0]; // e.g., "2025-02-25"
 
   const BASE_URL = `https://newsapi.org/v2/everything?q=*&from=2025-02-27&sortBy=popularity&apiKey=b2046eee1ee447f0976792a85514d1a6`;
 
