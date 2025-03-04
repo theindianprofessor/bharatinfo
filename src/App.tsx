@@ -29,10 +29,13 @@ import './App.css';
 
 import { RouterProvider } from 'react-router-dom';
 import { router } from './router';
+import { NewsProvider } from './components/news/NewsContext';
 
 
 const App: React.FC = () => {
-   return <RouterProvider router={router}></RouterProvider>
+   return <NewsProvider>
+               <RouterProvider router={router} />
+         </NewsProvider>
   
 }
 

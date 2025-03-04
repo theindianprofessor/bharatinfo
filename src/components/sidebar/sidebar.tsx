@@ -35,6 +35,11 @@ const navLinks = [
     icon: pincodeIcon,
     link: "/pincode",
   },
+  {
+    name: "NEWS",
+    icon: blogIcon,
+    link: "/news",
+  },
 ];
 
 const Sidebar: React.FC<SidebarProps> = ({ mobileOpen, handleDrawerToggle }) => {
